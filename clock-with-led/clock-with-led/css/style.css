@@ -1,0 +1,75 @@
+body {
+  background: #999;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.case {
+  display: inline-block;
+  margin: auto;
+  background: #eee;
+  padding: 1.5em;
+  border-radius: 25px;
+  box-shadow: 
+    -0px -5px 10px #999 inset, 
+    2px 5px 10px #fff inset, 2px 5px 20px #333;
+}
+
+.case > div {
+  display: inline-block;
+
+}
+
+#colon {
+  font-family: times;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.dot {
+  margin: 1em 0;
+  width: 1em;
+  height: 1em;
+  border-radius: 50px;
+  box-shadow: 
+    0px 0px 8px #000 inset;
+}
+
+.led-on > .dot  { background: red; }
+.led-off > .dot { background: black; }
+
+.digit {
+  font-family: calibri;
+  font-size: 4em;
+  margin: .2em;
+  padding: .2em .3em;
+  color: white;
+  background: #666;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #000000 inset,
+    -2px -2px 2px #000, 
+    2px 2px 2px #fff;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.dot-hilite {
+  background: rgba(255,255,255,.7);
+  border-radius: 4px;
+  width: .25em;
+  height: .25em;
+  position: relative;
+  left: .2em;
+  top: .2em;
+}
+
+#sec {
+  display: none;
+  color: pink;
+}

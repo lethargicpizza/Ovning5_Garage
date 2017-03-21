@@ -1,0 +1,206 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+}
+
+.navbar {
+    margin-bottom: 4px;
+    padding: 9px 9px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+
+.coffee-element {
+    align-content:center;
+    text-align: center;
+    width:300px;
+}
+
+.coffee-section {
+    align-content:center;
+    margin: 50px;
+}
+
+.coffee-element img {
+    height: 150px;
+}
+
+
+.staff-element {
+    text-align: center;
+}
+
+.staff-section {
+    margin: 50px;
+}
+
+.staff-element img {
+    height: 100px;
+    width:auto;
+}
+
+td img {
+    height: 150px;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+    padding: 6px;
+    border-style:solid;
+    border-width:thin;
+    border-color:black;
+}
+
+td {
+    width:2300px;
+}
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30%;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-banner {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+article img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+}
+
+article {
+    padding: 40px;
+}
+article img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+}
+article p {
+    font-size: 16px;
+}
+
+section img {
+    /*width: 100%;
+    height: 100%;*/
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+    padding:20px;
+    border-style:solid;
+    border-width:thin;
+    border-color:black;
+}
+
+
+@media (max-width: 767px) {
+
+    .range-list h4 {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .range-list a {
+        display: block;
+    }
+
+    .range-list img {
+        width: 33%;
+        height: 33%;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+}
+
+
+/* The following code is used to create same-sized columns 
+   in a multi-column layout.
+   Code from:  
+   http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+*/
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}

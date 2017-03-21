@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript" src="BishBosh.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+    </style>
+    </head>
+    <body>
+    <header><strong>BishBosh 2.0</strong> - Webb, frontend och javascript</header>
+    <article>
+    <h1>Uppgift 1</h1>
+
+    <p id="utskrift" class="utskrift">
+        <script type="text/javascript">
+            Uppgift1();
+        </script>
+    </p>
+
+
+    
+    <h1>Uppgift 2</h1>
+    <p class="brodtext">Det här är övning 8 som vi fick den 25 januari 2017. Den går ut på att ett JavaScript ska skriva ut en talföljd. I uppgift 2 väljer användaren själv hur lång talföljden ska vara samt ersätter värden som är delbara med valda värden med "Bish" respektive "Bosh".</p>
+    <p>
+        <span class="textBoxNamn">Ange Bish-tal:</span>
+        <input id="txtBishTal" type="number" min="1" onkeypress="return isPositive(event)" />&nbsp; <em class="kommentar" style="font-family: Verdana; font-size: small; font-style: italic">(ersätter tal som är jämnt delbart med detta tal till &quot;Bish&quot;)</em></p>
+    <p>
+        <span class="textBoxNamn">Ange Bosh-tal:</span> <input id="txtBoshTal"  type="number" min="1" onkeypress="return isPositive(event)" /> <em class="kommentar">(ersätter tal som är jämnt delbart med detta tal till &quot;Bosh&quot;)</em></p>
+    <p class="textBoxNamn">
+        Högsta värde:&nbsp; <input id="txtHögstaVärde"  type="number" min="1" style="width: 55px" onkeypress="return isPositive(event)" /></p>
+    <p style="font-style: italic" class="brodtext">
+        Tal som är jämnt delbara med både Bish- och Bosh-talen ger utskriften &quot;Bish-Bosh&quot;.</p>
+    
+    <p>
+        <input id="btnKör" type="button" value="Kör" onclick="utskriftUppgift2.textContent = Uppgift2(txtBishTal.value, txtBoshTal.value, txtHögstaVärde.value);" class="knapp" /></p> 
+    
+    <p id="utskriftUppgift2" class="utskrift"></p>
+    </article>
+    <footer>
+        ©<em> Per Nordenbrink 2017 </em>
+    </footer>
+</body>
+</html>

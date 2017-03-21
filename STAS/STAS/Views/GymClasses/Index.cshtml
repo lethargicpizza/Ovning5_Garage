@@ -1,0 +1,87 @@
+﻿@model IEnumerable<STAS.GymClass>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @if (User.IsInRole("Admin"))
+    {
+        @Html.ActionLink("Create New", "Create")
+    }
+</p>
+<table class="table table-hover sortable">
+        <thead >
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th data-defaultsort="asc">
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+        <th data-defaultsort="disabled">
+            @Html.DisplayNameFor(model => model.Duration)
+        </th>
+        <th data-defaultsort="disabled">
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th data-defaultsort="disabled"></th>
+    </tr>
+        </thead>
+
+@foreach (var item in Model) {
+    <tbody>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Duration)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.Id })
+            @if (User.Identity.IsAuthenticated)
+            {
+                if (item.StartTime >= DateTime.Now)
+                {
+                    <span> | </span>
+
+                    if (item.AttendingMembers.Any(a => a.UserName == User.Identity.Name))
+                    {
+                    @Html.ActionLink("UnBook", "BookingToggle", new { id = item.Id });
+                    }
+                    else
+                    {
+                    @Html.ActionLink("Book", "BookingToggle", new { id = item.Id });
+                    }
+                }
+
+                if (User.IsInRole("Admin"))
+                {
+                    <span> | </span> @Html.ActionLink("Edit", "Edit", new { id = item.Id })<span> | </span>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                }
+            
+            }
+        </td>
+    </tr>
+        </tbody>
+}
+
+</table>
+
+@using (Html.BeginForm("Index", "GymClasses", FormMethod.Get))
+{
+    <input type="checkbox" checked="@ViewBag.ShowHistory" name="showHistory" id="showHistory" onclick="submit();"/><label for="showHistory"> Visa historik</label>
+    @*<input type="submit" value="Ok"/>*@
+}
+

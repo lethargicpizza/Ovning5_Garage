@@ -1,0 +1,99 @@
+body {
+    background-color:#dca804;
+}
+/* H E A D E R */
+body > header {
+    margin: 0;
+    padding-bottom: 8px;
+    font-family:'Comic Sans MS';
+    font-size:xx-large;
+    text-align: center;
+    padding-bottom:14px;
+    /*border-width: 0px 0px 1px 0px;
+    border-color: black;
+    border-style: solid;*/
+}
+
+
+/* F O O T E R */
+
+body > footer {
+    
+    background-color:#a27d06;
+    font-size: medium;
+    font-family:'Comic Sans MS';
+    height:50px;
+    padding:10px;
+    font-size:small;
+
+    /*border-width: 1px 0px 1px 0px;*/
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#lankar {
+   /*border-top-width: 1px;
+   border-top-style:solid;
+    border-color: black;*/
+}
+#lankar a {
+   color: maroon;
+   text-decoration: none;
+}
+ #lankar a:hover {
+     text-decoration:underline;
+ }
+
+#lankar li {
+    padding-top:18pt;
+    display: inline;
+    margin-right: 2em;
+    font-family:'Comic Sans MS';
+}
+
+/* A R T I C L E */
+article {
+    display:inline-block;
+    width: 50%;
+    /*height:auto;*/
+    /*border-width: 0 1px 0 1px;*/
+  /*border-color: black;
+  border-style: solid;*/
+
+}
+
+#brodtext {
+    
+    font-family: 'Comic Sans MS';
+    font-size:medium;
+    padding: 4px;
+    color:maroon;
+}
+
+#filmklipp {
+    padding:10px;
+}
+
+
+/* N A V */
+nav {
+    display:inline-block;
+    width: 15%;
+    padding:8px;
+    font-family:'Comic Sans MS';
+    font-size:smaller;
+}
+
+
+
+
+/* A S I D E */
+aside {
+    display:inline-block;
+    float:right;
+    width: 20%;
+}
+
+
+
+

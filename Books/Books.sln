@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Web", "Books.Web\Books.Web.csproj", "{50612394-CB9A-4715-BCD2-DEA48C2F60CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Entities", "Books.Entities\Books.Entities.csproj", "{07863214-0F87-42EB-B540-1F36EACAC2F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50612394-CB9A-4715-BCD2-DEA48C2F60CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50612394-CB9A-4715-BCD2-DEA48C2F60CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50612394-CB9A-4715-BCD2-DEA48C2F60CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50612394-CB9A-4715-BCD2-DEA48C2F60CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07863214-0F87-42EB-B540-1F36EACAC2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07863214-0F87-42EB-B540-1F36EACAC2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07863214-0F87-42EB-B540-1F36EACAC2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07863214-0F87-42EB-B540-1F36EACAC2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,70 @@
+﻿header {
+    font-size:xx-large;
+    text-align:center;
+    font-family:'Berlin Sans FB';
+    color:white;
+    background-color:black;
+    padding:6px;
+   border-top-left-radius:16px;
+border-top-right-radius:16px;
+box-sizing:border-box;
+
+}
+
+article {
+    padding: 10px;
+    background-color:white;
+    border: 3px solid black;
+    box-sizing:border-box;
+    
+}
+footer {
+    font-size: small;
+    color:white;
+    background-color: black;
+    padding-left:13px;
+    padding-bottom:10px;
+    padding-top: 6px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+    box-sizing:border-box;
+        }
+
+body {
+    background-color:silver;
+    font-family:Verdana;
+}
+.kommentar {
+    font-size: small;
+    font-style: italic;
+}
+.textBoxNamn {
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+.brodtext {
+    font-size:medium;
+}
+
+.utskrift {
+    color:maroon;
+    font-style: italic;
+    font-size:small;
+}
+
+.knapp {
+    font-family: Verdana; font-weight:bold; font-size: smaller; background-color: #FFFFFF; color: #800000; border: 2px outset #000080; width: 64px;
+
+}
+
+ #txtBishTal {
+     width: 55px;
+ }
+
+ #txtBoshTal {
+     width: 55px;
+ }
