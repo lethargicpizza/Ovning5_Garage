@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ovning5_Garage.Garage&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAgBAAAAAgBQQCBAAIAAAEAAAAAAAAEAA=</HashCode>
+      <FileName>Garage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ovning5_Garage.Program">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAABAAAAAAKAAEAAIAEAAABAAAABAAABQAIAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Vehicle">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACABAAAAAAQAAAEAEBAACAAAAAAAAAAgAAAACA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Airplane">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAgAAAAAAAAACAAgAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Motorcycle">
+    <Position X="1" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Car">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABAAgAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Bus">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Boat">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQACSAAAAAAEAAAAAAACAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.Locomotive">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAQAEAAAAAAAAAAAAE=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ovning5_Garage.UserInput">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQQAAAAAKAIAAAAICAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ovning5_Garage.Fueltypes">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ovning5_Garage.Boattypes">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ovning5_Garage.LocomotiveEngineTypes">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAIAwIAAAAAACAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ovning5_Garage.Flags">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAQAAgAAAAAAAEAAAAgAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>VehicleTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
